@@ -5,6 +5,10 @@ public class Bolo extends Lanche{
     private String recheio;
     private String cobertura;
 
+    public Bolo(){
+        super.setTempoPreparo(10);
+    }
+
     public String getMassa() {
         return massa;
     }

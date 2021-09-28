@@ -7,6 +7,10 @@ public class Sanduiche extends Lanche{
         return ingredientes;
     }
 
+    public Sanduiche() {
+        super.setTempoPreparo(15);
+    }
+
     public void setIngredientes(String[] ingredientes) {
         this.ingredientes = ingredientes;
     }

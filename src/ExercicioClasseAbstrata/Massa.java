@@ -3,6 +3,10 @@ package ExercicioClasseAbstrata;
 public class Massa extends Lanche{
     private String molho;
 
+    public Massa() {
+        super.setTempoPreparo(30);
+    }
+
     public String getMolho() {
         return molho;
     }
