@@ -43,7 +43,7 @@ public abstract class Lanche {
         this.tempoEntrega = tempoEntrega;
     }
 
-    public int calcularEntrega(int distancia) {
+    public Double calcularEntrega(Double distancia) {
         return getTempoEntrega()*distancia;
     }
 
