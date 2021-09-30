@@ -18,7 +18,7 @@ public class Main {
 
         Scanner scanner = new Scanner (System.in);
         Double distancia = scanner.nextDouble();
-        System.out.println("Tempo estimado de entrega: " + sanduiche.calcularEntrega(distancia) + " minutos");
+        System.out.println("Tempo estimado de entrega: " + (sanduiche.calcularEntrega(distancia) + sanduiche.getTempoPreparo()) + " minutos");
 
 
     }
