@@ -76,7 +76,7 @@ public class Main {
 
         String msg = "Opção escolhida: ";
         switch (opcao) {
-            case 1 -> { System.out.println(msg + "Sanduíche"); montarSanduiches(); }
+            case Opcao.SANDUICHES -> { System.out.println(msg + "Sanduíche"); montarSanduiches(); }
             case 2 -> System.out.println(msg + "Massa");
             case 3 -> System.out.println(msg + "Bolo");
             case 4 -> { fecharPedido(); System.exit(0); }
